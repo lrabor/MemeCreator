@@ -17,6 +17,7 @@ public class BottomPhotoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        // Comment
         View view = inflater.inflate(R.layout.bottom_photo_fragment, container, false);
 
         topTextView = (TextView) view.findViewById(R.id.topTextView);
